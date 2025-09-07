@@ -30,3 +30,4 @@ The built-in **analytics dashboard** provides insights into participation and ev
 - **PostgreSQL** – Database (can be swapped with any Prisma-supported DB)  
 
 ---
+https://drive.google.com/drive/folders/1m5JbsxeuOQgrD29iZa1r3wykygNL3VtG?usp=sharing
