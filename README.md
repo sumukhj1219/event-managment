@@ -1,40 +1,32 @@
-Event Management App
+# Event Management System
 
-A simple event management system built with the T3 Stack (Next.js, tRPC, Prisma, Tailwind, NextAuth).
-It allows admins to create events, students to register, and provides features for tracking attendance, feedback, and analytics.
+A **full-stack event management platform** built with the **T3 Stack**.  
+It enables **admins** to create and manage events, while **students** can register, mark attendance, and submit feedback.  
+The built-in **analytics dashboard** provides insights into participation and event statistics.
 
-Features
+---
 
-Event Creation → Admins can create and manage events.
+## Features
 
-Student Registration → Students can register using their details and SRN.
+### Admin
+- Create and manage events  
+- Track registered students  
+- Mark attendance  
+- View analytics (total events, registered students, attendance stats)  
 
-Attendance Tracking → Attendance can be updated per student for each event.
+### Students
+- Register for events  
+- Mark attendance (when allowed)  
+- Submit feedback (rating + comments)  
 
-Feedback Collection → Students can submit feedback after attending.
+---
 
-Analytics Dashboard → Quick overview of total events, total students, and average attendance.
+## Tech Stack
+- **Next.js (App Router)** – Frontend & API routes  
+- **tRPC** – Type-safe API layer  
+- **Prisma ORM** – Database modeling & queries  
+- **NextAuth** – Authentication & authorization  
+- **TailwindCSS + shadcn/ui** – UI components & styling  
+- **PostgreSQL** – Database (can be swapped with any Prisma-supported DB)  
 
-Tech Stack
-
-Frontend: Next.js (App Router), TailwindCSS, shadcn/ui
-
-Backend: tRPC, Prisma ORM, NextAuth for authentication
-
-Database: PostgreSQL (or any Prisma-supported DB)
-
-API Overview (tRPC Routers)
-
-events.create → Create new event
-
-events.list → Get all events
-
-events.getById → Get event details
-
-students.register → Register student for an event
-
-students.markAttendance → Update attendance status
-
-feedback.submit → Submit feedback for event
-
-analysis.overview → Analytics summary
+---
